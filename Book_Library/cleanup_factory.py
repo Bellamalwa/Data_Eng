@@ -11,7 +11,7 @@ logging.basicConfig(
 logging.info("--- AUTOMATION FACTORY STARTING---")
 
 #The database connection
-connection = sqlite3.connect('automation_v2.db')
+connection = sqlite3.connect('cleanup_v2.db')
 cursor = connection.cursor()
 
 #Create authors table

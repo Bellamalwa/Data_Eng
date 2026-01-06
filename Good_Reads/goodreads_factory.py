@@ -20,7 +20,6 @@ csv_files = [f for f in os.listdir(folder_path) if f.endswith('.csv')]
 logging.info(f" Found {len(csv_files)} CSV files to process")
 print(f"Found {len(csv_files)} CSV files")
 
-
 # Function (Table Format)
 def peak_at_data(file_path, num_rows=5):
     file_name = os.path.basename(file_path)
