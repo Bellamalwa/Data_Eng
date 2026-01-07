@@ -14,6 +14,7 @@ folder_path = 'DATA_CSV'
 connection = sqlite3.connect('goodreads_v2.db')
 cursor = connection.cursor()
 print("✓ Database connected")
+# Rename archive folder to DATA_CSV
 
 logging.info(f" Checking folder: {folder_path}")
 csv_files = [f for f in os.listdir(folder_path) if f.endswith('.csv')]
